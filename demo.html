@@ -57,9 +57,11 @@
         </tbody>
     </table>
     <h3>Form</h3>
-    <form action="backend.php">
-        <label for="name">Name: </label>
-        <div>
+    <fieldset>
+    <legend>Basic details</legend>
+        <form action="backend.php">
+            <label for="name">Name: </label>
+            <div>
             <input type="text" name="My name" id="name">  
         </div>
         <br>
@@ -92,7 +94,7 @@
         </div>
         <br>
         <div>
-           Write about yourself:  <br><textarea name="My Text"  cols="90" rows="10"></textarea>
+            Write about yourself:  <br><textarea name="My Text"  cols="90" rows="10"></textarea>
         </div>
         <br>
         <div>
@@ -110,7 +112,8 @@
         <div>
             <input type="reset" value="reset">
         </div>
+    </fieldset>
     </form>
-    
+    <h3>ids and classes in html</h3>
 </body>
 </html>
